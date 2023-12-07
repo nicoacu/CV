@@ -1,0 +1,28 @@
+body {
+  background: rgb(204, 204, 204);
+  width: 21cm;
+  height: 29.7cm;
+  margin: 0 auto;
+}
+
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  position: relative;
+}
+
+page[size="A4"] {
+  width: 21cm;
+  height: 29.7cm;
+}
+
+page[margins="A4"] {
+  margin: 1.5cm;
+}
+
+@page {
+  size: 21cm 29.7cm;
+  margin: 0mm;
+}

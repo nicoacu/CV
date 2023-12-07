@@ -1,0 +1,64 @@
+.header {
+  text-align: center;
+}
+
+.header h1 {
+  padding-top: 1.5cm;
+  padding-bottom: 0.1cm; /* Adjust the space below h1 */
+  margin: auto;
+}
+
+.header h2 {
+  margin-top: 0.1cm; /* Adjust the space above h2 */
+  margin-bottom: 0.1cm;
+}
+
+.header h4 {
+  margin-top: 0.2cm; /* Adjust the space above h4 */
+}
+
+.flex-experienceHeader {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.3cm;
+}
+
+.company,
+.location,
+.role,
+.date {
+  flex-basis: 50%;
+  margin-bottom: 0.01cm;
+  margin-top: 0.1cm; /* Adjust the margin to reduce space between items */
+}
+
+.location,
+.date {
+  text-align: right;
+}
+
+.flex-educationHeader {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0.3cm;
+  margin-bottom: 0.1cm;
+}
+
+.institution,
+.date {
+  margin: auto;
+  flex-basis: 50%;
+}
+
+.title {
+  margin-top: 0.1cm;
+  flex-basis: 100%;
+}
+
+.bottomLineSeparator {
+  border-bottom: 0.05cm solid rgb(99, 99, 99);
+}
+
+.section {
+  margin-bottom: 0.05cm;
+}
