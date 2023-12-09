@@ -3,18 +3,18 @@
 }
 
 .header h1 {
-  padding-top: 1.5cm;
-  padding-bottom: 0.1cm; /* Adjust the space below h1 */
+  /* padding-top: 1.5cm; Commented makes the CV looks better saved as pdf. Might evaluate alternatives. */
+  padding-bottom: 0.1cm;
   margin: auto;
 }
 
 .header h2 {
-  margin-top: 0.1cm; /* Adjust the space above h2 */
+  margin-top: 0.1cm;
   margin-bottom: 0.1cm;
 }
 
 .header h4 {
-  margin-top: 0.2cm; /* Adjust the space above h4 */
+  margin-top: 0.2cm;
 }
 
 .flex-experienceHeader {
@@ -29,7 +29,7 @@
 .date {
   flex-basis: 50%;
   margin-bottom: 0.01cm;
-  margin-top: 0.1cm; /* Adjust the margin to reduce space between items */
+  margin-top: 0.1cm;
 }
 
 .location,
